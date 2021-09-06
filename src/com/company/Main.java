@@ -15,8 +15,8 @@ public class Main {
         System.out.print("Percent of the day that has passed: ");
         System.out.println(SinceMidnight*100/SecondsDay);
         int hourEnd = 19;
-        double minuteEnd = 31;
-        double secondEnd = 14;
+        float minuteEnd = 31;
+        float secondEnd = 14;
         System.out.print("Seconds spend doing this exersice: ");
         System.out.println(hourEnd*60*60+minuteEnd*60+secondEnd-SinceMidnight);
         System.out.print("Percent of the day spent doing this exersice. ");
