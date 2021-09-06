@@ -21,6 +21,5 @@ public class Main {
         System.out.println(hourEnd*60*60+minuteEnd*60+secondEnd-SinceMidnight);
         System.out.print("Percent of the day spent doing this exersice. ");
         System.out.print((hourEnd*60*60+minuteEnd*60+secondEnd-SinceMidnight)*100/SecondsDay);
-
     }
 }
